@@ -121,8 +121,6 @@ h3.popular {
   transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0s;
 }
 
-.card:hover {
-  transform: scale(1.05);
-}
+
 
 
