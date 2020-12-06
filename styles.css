@@ -125,15 +125,4 @@ h3.popular {
   transform: scale(1.05);
 }
 
-/* Animações */
-@keyframes loaderAnimation {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
+
