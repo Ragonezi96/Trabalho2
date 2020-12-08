@@ -133,7 +133,7 @@ const getSingleMovie = async (movieId) => {
 
 const getSearchResults = async (queryString) => {
   switchLoader(true);
-  await fetch(`${API_ROOT_URL}search/movie/?query=${queryString}&${DEFAULT_PARAMS}&page=1&include_adult=false`, {
+  await fetch(`${API_ROOT_URL}search/tv/?query=${queryString}&${DEFAULT_PARAMS}&page=1&include_adult=false`, {
     method: 'GET',
     headers: DEFAULT_HEADERS
   })
