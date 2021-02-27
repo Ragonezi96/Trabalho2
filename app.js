@@ -20,7 +20,7 @@ $(document).ready(function () {
 // ===== Injetores de conteúdo
 const getMovieCard = (data) => {
   return `
-    <div class="card m-2" style="width: 25rem;">
+    <div class="card m-2" style="width: 20rem;">
       <img class="card-img-top ${data.poster_path === null ? 'd-none' : ''}" src="https://image.tmdb.org/t/p/w500${data.poster_path}" alt="${data.title}">
       <div class="card-image-filler ${data.poster_path !== null ? 'd-none' : ''}"><span>Sem imagem</span></div>
       <div class="card-body d-flex flex-column justify-content-between">
